@@ -1,0 +1,219 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "controllers",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-controllers-Debug-a68de31462664dd2eac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "controllers"
+				},
+				{
+					"build" : "controllers/footbot_flocking",
+					"jsonFile" : "directory-controllers.footbot_flocking-Debug-de452246debb57bd2ce9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/footbot_flocking",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "controllers/footbot_manualcontrol",
+					"jsonFile" : "directory-controllers.footbot_manualcontrol-Debug-7833bf08e8d23c48cf8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/footbot_manualcontrol",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "loop_functions",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"jsonFile" : "directory-loop_functions-Debug-8c5d5eebc0faba3f1d6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "loop_functions"
+				},
+				{
+					"build" : "loop_functions/flocking_loop_functions",
+					"jsonFile" : "directory-loop_functions.flocking_loop_functions-Debug-3905aa764d464e4d4905.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "loop_functions/flocking_loop_functions",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "loop_functions/manualcontrol_loop_functions",
+					"jsonFile" : "directory-loop_functions.manualcontrol_loop_functions-Debug-a461cb8929bb2244c706.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "loop_functions/manualcontrol_loop_functions",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "argos3_flocking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "flocking_loop_functions::@0a40a17013410301d650",
+					"jsonFile" : "target-flocking_loop_functions-Debug-15f2f8937e1d82035ed6.json",
+					"name" : "flocking_loop_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "flocking_loop_functions_autogen::@0a40a17013410301d650",
+					"jsonFile" : "target-flocking_loop_functions_autogen-Debug-f0c6a7551367c889d59b.json",
+					"name" : "flocking_loop_functions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "footbot_flocking::@8f5af4f370d3048b64c0",
+					"jsonFile" : "target-footbot_flocking-Debug-b2dbedf6c1193722f3d1.json",
+					"name" : "footbot_flocking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "footbot_flocking_autogen::@8f5af4f370d3048b64c0",
+					"jsonFile" : "target-footbot_flocking_autogen-Debug-c196af75a3cd9e6d93a6.json",
+					"name" : "footbot_flocking_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "footbot_manualcontrol::@418f30841aefd72169fc",
+					"jsonFile" : "target-footbot_manualcontrol-Debug-062f84dc17203ed1667f.json",
+					"name" : "footbot_manualcontrol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "footbot_manualcontrol_autogen::@418f30841aefd72169fc",
+					"jsonFile" : "target-footbot_manualcontrol_autogen-Debug-ef77b86fde45d2119e8b.json",
+					"name" : "footbot_manualcontrol_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "manualcontrol_loop_functions::@e01a401d7c7f2524a4a1",
+					"jsonFile" : "target-manualcontrol_loop_functions-Debug-ab71fc8d46314e70a477.json",
+					"name" : "manualcontrol_loop_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "manualcontrol_loop_functions_autogen::@e01a401d7c7f2524a4a1",
+					"jsonFile" : "target-manualcontrol_loop_functions_autogen-Debug-8b100fcfb2be24566d08.json",
+					"name" : "manualcontrol_loop_functions_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eden/Senior_Project_Final/build",
+		"source" : "/home/eden/Working_11-21_Senior_Project/argos3/build_simulator/argos3-flocking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

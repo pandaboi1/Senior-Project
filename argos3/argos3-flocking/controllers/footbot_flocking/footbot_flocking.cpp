@@ -89,7 +89,7 @@ void CFootBotFlocking::GreedyBestFirstSearch(const CVector2 &start, const CVecto
       }
    }
 
-   LOGERR << "Path not found!" << std::endl;
+   LOG << "Path not found!" << std::endl;
 }
 
 bool CFootBotFlocking::IsLineOfSight(const CVector2 &a, const CVector2 &b)

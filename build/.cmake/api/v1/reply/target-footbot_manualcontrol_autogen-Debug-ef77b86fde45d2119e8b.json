@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"controllers/footbot_manualcontrol/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "footbot_manualcontrol_autogen::@418f30841aefd72169fc",
+	"isGeneratorProvided" : true,
+	"name" : "footbot_manualcontrol_autogen",
+	"paths" : 
+	{
+		"build" : "controllers/footbot_manualcontrol",
+		"source" : "controllers/footbot_manualcontrol"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/eden/Senior_Project_Final/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/eden/Senior_Project_Final/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

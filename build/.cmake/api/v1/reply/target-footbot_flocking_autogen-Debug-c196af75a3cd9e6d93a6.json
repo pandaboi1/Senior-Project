@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"controllers/footbot_flocking/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "footbot_flocking_autogen::@8f5af4f370d3048b64c0",
+	"isGeneratorProvided" : true,
+	"name" : "footbot_flocking_autogen",
+	"paths" : 
+	{
+		"build" : "controllers/footbot_flocking",
+		"source" : "controllers/footbot_flocking"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/eden/Senior_Project_Final/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/eden/Senior_Project_Final/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

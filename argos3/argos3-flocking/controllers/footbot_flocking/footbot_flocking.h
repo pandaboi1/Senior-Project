@@ -168,7 +168,7 @@ public:
    };
 
 public:
-   // Add to the public section
+   // stores grid in vector
    std::vector<std::vector<CVector2>> m_cNodeGrid;
    std::vector<CVector2> m_cPath; // Stores the computed shortest path
    Real m_fNodeSpacing;
@@ -179,7 +179,7 @@ public:
    bool IsLineOfSight(const CVector2 &a, const CVector2 &b);
    bool IsObstacle(const CVector2 &node);
 
-   // Add in the private section
+   // Added Node structure
    struct Node
    {
       CVector2 Position;
